@@ -12,4 +12,5 @@ export GST_PLUGIN_PATH=~/tools/kaldi/src/gst-plugin
 # gst-inspect-1.0 onlinegmmdecodefaster
 # python kaldigstserver/worker.py -u ws://localhost:8888/worker/ws/speech -c sample_worker.yaml
 # python kaldigstserver/client.py -r 32000 ~/tools/kaldi-gstreamer-server/test/data/english_test.raw
+# python kaldigstserver/worker.py -u ws://localhost:8888/worker/ws/speech -c sample_english_nnet2.yaml
 
